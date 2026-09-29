@@ -1,7 +1,8 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+1. The camera no longer moves with the cat, as the positions of the two are no longer linked.
+2. Link to itch.io page: https://quintbastianuci.itch.io/gdim-31-first-in-class-activity
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
