@@ -18,6 +18,10 @@ Activity 2. Our group compared the relationship between classes and components t
 
 Activity 3. I believe the balls get extremely bright when they bounce too many times due to the fact that the method that affects its color is multiplicative, resulting in greater and greater brightness every time the method is called.
 
+### W4
+1. I added Rigidbodies to the cat and the ball, as the two of them had to be able to collide with the ground, walls, and each other. I checked the IsTrigger option on the goal since it is meant to be detected while inside, but not rigidly collided with.
+2. My game worked as expected the first time I ran it, though the amount of digits that the timer text displays is kind of ugly to look at. In the near future I imagine we'll learn how to format text in Unity.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
