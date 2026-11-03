@@ -22,6 +22,9 @@ Activity 3. I believe the balls get extremely bright when they bounce too many t
 1. I added Rigidbodies to the cat and the ball, as the two of them had to be able to collide with the ground, walls, and each other. I checked the IsTrigger option on the goal since it is meant to be detected while inside, but not rigidly collided with.
 2. My game worked as expected the first time I ran it, though the amount of digits that the timer text displays is kind of ugly to look at. In the near future I imagine we'll learn how to format text in Unity.
 
+### W6
+Plan for DeerW5 class: Since we are using a NavMeshAgent to move the deer, we don't need the same movement variables as the CatW5 class, but we do need an animator variable to animate the deer in the same way the cat is animated. Additionally, we need a variable to represent the transform of the object that the deer is walking towards, and a variable to hold the NavMeshAgent component of the deer. We should be able to get by with just a Start() and Update() method, as all we need to do is set the class's NavMeshAgent variable once and call its SetDestination function every frame afterwards. The goal of our Start() function is to initialize our NavMeshAgent, and the goal of our Update() function is to move the deer towards our target every frame.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
