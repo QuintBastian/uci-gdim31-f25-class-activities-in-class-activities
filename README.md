@@ -25,6 +25,10 @@ Activity 3. I believe the balls get extremely bright when they bounce too many t
 ### W6
 Plan for DeerW5 class: Since we are using a NavMeshAgent to move the deer, we don't need the same movement variables as the CatW5 class, but we do need an animator variable to animate the deer in the same way the cat is animated. Additionally, we need a variable to represent the transform of the object that the deer is walking towards, and a variable to hold the NavMeshAgent component of the deer. We should be able to get by with just a Start() and Update() method, as all we need to do is set the class's NavMeshAgent variable once and call its SetDestination function every frame afterwards. The goal of our Start() function is to initialize our NavMeshAgent, and the goal of our Update() function is to move the deer towards our target every frame.
 
+### W7
+1. I was assigned to work on the "Unity Coding" category of the outline document. Link to Google Doc: https://docs.google.com/document/d/1R_bArpdyWDk7oLt_Y6eFAooJNsrQ6vkbxEgePz7vyaA/edit?tab=t.0
+2. Plan for BatW6 class: In terms of member variables, the class will need a speed (editable in inspector), a means of getting the Transform component of the player, and a bool to represent whether or not the bat is currently chasing the player. The class will require a Start() function to set the transform variable, an Update() function that allows the bat to chase the player when appropriate, and two functions to toggle whether or not the bat is chasing the player.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
