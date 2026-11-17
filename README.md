@@ -29,6 +29,9 @@ Plan for DeerW5 class: Since we are using a NavMeshAgent to move the deer, we do
 1. I was assigned to work on the "Unity Coding" category of the outline document. Link to Google Doc: https://docs.google.com/document/d/1R_bArpdyWDk7oLt_Y6eFAooJNsrQ6vkbxEgePz7vyaA/edit?tab=t.0
 2. Plan for BatW6 class: In terms of member variables, the class will need a speed (editable in inspector), a means of getting the Transform component of the player, and a bool to represent whether or not the bat is currently chasing the player. The class will require a Start() function to set the transform variable, an Update() function that allows the bat to chase the player when appropriate, and two functions to toggle whether or not the bat is chasing the player.
 
+### W8
+The movement code in Step 2 was moving the muskrat relative to Vector3.forward, a Vector3 that represents the positive direction of the game engine's z-axis. By changing Vector3.forward to transform.forward, the muskrat is moved relative to its current local forward axis, rather than a constant global axis of the engine space. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
